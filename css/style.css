@@ -172,7 +172,7 @@ fas{
     position: relative;
 }
 
-.menu_nav a {
+.menu_nav_a {
     color: #222222;
     display: flex;
     align-items: center;
@@ -183,7 +183,7 @@ fas{
     margin-bottom: 3px;
 }
 
-.menu_nav a:hover {
+.menu_nav_a :hover {
     border-bottom: 3px solid #ef5b70;
     padding-bottom: 16px;
 }
@@ -234,7 +234,7 @@ fas{
     color: #ef5b70;
 }
 /*---------------Мегаменю мужики--------------------*/
-.menu_man :hover .mega_menu_man_flex {
+.menu_man:hover .mega_menu_man{
     display: flex;
 }
 
@@ -247,8 +247,6 @@ fas{
     border: 1px solid gray;
     border-radius: 10px;
 }
-
-
 .mega_menu_man_flex {
     padding: 15px 15px;
 }
@@ -267,12 +265,13 @@ fas{
 .mega_menu_man_links {
     color: #000;
     text-transform: none;
+    
 }
 
 .mega_menu_man_links:hover {
     color: #ef5b70;
+    border-bottom: none;
 }
-
 
 /*--------------- Кучерявый------------------*/
 
