@@ -197,15 +197,16 @@ fas {
 .mega_menu_kids {
     position: absolute;
     top: 50px;
-    display: none;
-    left: 450px;
+    display: flex;
+    left: -3350px;
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 10px;
+    transition: 1.2s;
 }
 
 .menu_kids:hover .mega_menu_kids {
-    display: flex;
+     left: 450px;
 }
 
 .mega_menu_kids_flex {
@@ -236,17 +237,19 @@ fas {
 /*---------------Мегаменю мужики--------------------*/
 
 .menu_man:hover .mega_menu_man {
-    display: flex;
+    left: 285px;
 }
 
 .mega_menu_man {
     position: absolute;
     top: 50px;
-    display: none;
-    left: 285px;
+    display: flex;
+    left: -2285px;
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 10px;
+    
+    transition: 1.2s;
 }
 .arrtop{
     width: 10px;
@@ -887,10 +890,7 @@ fas {
     display: block;
     color: rgba(34, 34, 36, 0.67);
     font-size: 14px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 54px;
-    text-align: left;
 }
 
 .subscribe_input::placeholder {
@@ -904,6 +904,10 @@ fas {
     display: block;
     justify-content: space-around;
     height: 46px;
+    transition: 2s;
+}
+.subscribe_input_flex:hover{
+    transform: scale(1.2);
 }
 
 .subscribe_input_flex>a {
@@ -916,10 +920,7 @@ fas {
     color: #fff;
     border-top: 1px solid #f16d7f;
     border-bottom: 1px solid #f16d7f;
-}
 
-.subscribe_input_flex>a:hover {
-    color: #f16d7f;
 }
 
 
