@@ -198,7 +198,7 @@ fas {
     position: absolute;
     top: 50px;
     display: none;
-    left: 500px;
+    left: 450px;
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 10px;
@@ -243,12 +243,22 @@ fas {
     position: absolute;
     top: 50px;
     display: none;
-    left: 340px;
+    left: 285px;
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 10px;
 }
-
+.arrtop{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    background-color: #fff;
+    top: -7px;
+    left: 45px;
+    transform: rotate(45deg);
+}
 .mega_menu_man_flex {
     padding: 15px 15px;
 }
