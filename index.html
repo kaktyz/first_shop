@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="/js/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="css/style.css"><!-- 
+    <script defer src="/js/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.min.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                 <a class="browse_link" href="#">
                     <h4>Browse</h4> <i class="fas fa-sort-down"></i> </a>
                 <div class="sear4_input">
-                    <input type="text" value="Search for Item...">
+                    <input type="text" placeholder="Search for Item...">
                     <button class="sear4_input_button"><i class="fas fa-search"></i></button>
                 </div>
             </div>
@@ -37,52 +38,51 @@
     </header>
     <nav>
         <ul class="conteiner menu_nav">
-            <a href="#" id="border_nav">
-                <li>home</li>
-            </a>
-            <a href="#" class="menu_man">
-                <li>man</li>
-                <div class="mega_menu_man">
-                    <div class="mega_menu_man_flex">
-                        <h4>man</h4>
-                        <ul>
-                            <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Tops</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Coats</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Blazers</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Denim</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Pants</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Shorts</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Accessories</a></li>
-                        </ul>
+            <li><a href="#" id="border_nav">home</a></li>
+            <li>
+                <a href="#" class="menu_man">man
+                    <div class="mega_menu_man">
+                        <div class="mega_menu_man_flex">
+                            <h4>man</h4>
+                            <ul>
+                                <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Tops</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Coats</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Blazers</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Denim</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Pants</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Shorts</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega_menu_man_flex">
+                            <h4>man</h4>
+                            <ul>
+                                <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Tops</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Coats</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Blazers</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Denim</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega_menu_man_flex">
+                            <h4>man</h4>
+                            <ul>
+                                <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Tops</a></li>
+                                <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mega_menu_man_flex">
-                        <h4>man</h4>
-                        <ul>
-                            <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Tops</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Coats</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Blazers</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Denim</a></li>
-                        </ul>
-                    </div>
-                    <div class="mega_menu_man_flex">
-                        <h4>man</h4>
-                        <ul>
-                            <li><a href="#" class="mega_menu_man_links">Dresses</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Tops</a></li>
-                            <li><a href="#" class="mega_menu_man_links">Sweaters</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <li>women</li>
-            </a>
-            <a href="#" class="menu_kids">
-                <li>kids</li>
+                </a>
+            </li>
+            
+                <li><a href="#">women</a></li>
+            
+           
+                <li> <a href="#" class="menu_kids">kids</a>
                 <div class="mega_menu_kids">
                     <div class="mega_menu_kids_flex">
                         <h4>kids</h4>
@@ -118,16 +118,16 @@
                         </ul>
                     </div>
                 </div>
-            </a>
-            <a href="#">
-                <li>accoseriese</li>
-            </a>
-            <a href="#">
-                <li>featured</li>
-            </a>
-            <a href="#">
-                <li>hot deals</li>
-            </a>
+            </li>
+            
+                <li><a href="#">accoseriese</a></li>
+            
+            
+                <li><a href="#">featured</a></li>
+            
+            
+                <li><a href="#">hot deals</a></li>
+            
         </ul>
     </nav>
     <main>

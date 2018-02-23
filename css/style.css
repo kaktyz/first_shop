@@ -107,17 +107,21 @@ header {
 }
 
 .sear4_input>input {
-    height: 38px;
-    width: 275px;
-    color: red;
+    height: 33px;
+    width: 270px;
+    padding: 0 5px;
 }
 
 .sear4_input_button {
     width: 38px;
-    height: 42px;
+    height: 40px;
     position: absolute;
 }
 
+fas{
+    width: 10px;
+    height: 10px;
+}
 
 /*--------------- Правый хедер------------------*/
 
@@ -168,7 +172,7 @@ header {
     position: relative;
 }
 
-.menu_nav>a {
+.menu_nav a {
     color: #222222;
     display: flex;
     align-items: center;
@@ -179,7 +183,7 @@ header {
     margin-bottom: 3px;
 }
 
-.menu_nav>a:hover {
+.menu_nav a:hover {
     border-bottom: 3px solid #ef5b70;
     padding-bottom: 16px;
 }
@@ -230,7 +234,7 @@ header {
     color: #ef5b70;
 }
 /*---------------Мегаменю мужики--------------------*/
-.menu_man :hover .mega_menu_man {
+.menu_man :hover .mega_menu_man_flex {
     display: flex;
 }
 
