@@ -118,10 +118,11 @@ header {
     position: absolute;
 }
 
-fas{
+fas {
     width: 10px;
     height: 10px;
 }
+
 
 /*--------------- Правый хедер------------------*/
 
@@ -152,11 +153,9 @@ fas{
 }
 
 #my_acc_txt {
-    font-family: Lato;
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-    line-height: 32px;
 }
 
 
@@ -172,18 +171,17 @@ fas{
     position: relative;
 }
 
-.menu_nav_a {
+.menu_nav_a>a {
     color: #222222;
     display: flex;
     align-items: center;
     padding: 19px 19px;
-    font-family: Lato;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 3px;
 }
 
-.menu_nav_a :hover {
+.menu_nav_a>a:hover {
     border-bottom: 3px solid #ef5b70;
     padding-bottom: 16px;
 }
@@ -233,8 +231,11 @@ fas{
 .mega_menu_kids_links:hover {
     color: #ef5b70;
 }
+
+
 /*---------------Мегаменю мужики--------------------*/
-.menu_man:hover .mega_menu_man{
+
+.menu_man:hover .mega_menu_man {
     display: flex;
 }
 
@@ -247,6 +248,7 @@ fas{
     border: 1px solid gray;
     border-radius: 10px;
 }
+
 .mega_menu_man_flex {
     padding: 15px 15px;
 }
@@ -265,7 +267,6 @@ fas{
 .mega_menu_man_links {
     color: #000;
     text-transform: none;
-    
 }
 
 .mega_menu_man_links:hover {
@@ -273,10 +274,13 @@ fas{
     border-bottom: none;
 }
 
+
 /*--------------- Кучерявый------------------*/
 
 .banner {
     background: url(../img/lamb_men.png) -65px -51px;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 615px;
     display: flex;
     align-items: center;
@@ -514,10 +518,14 @@ fas{
     display: flex;
     margin-top: 40px;
     position: relative;
+    transition: 0.8s;
+}
+.product_1_link img{
+    transition: 0.8s;
 }
 
 .product_1_link:hover img {
-    filter: brightness(50%)
+    filter: brightness(50%);
 }
 
 .product_1:hover {
@@ -594,6 +602,13 @@ fas{
     margin: 0 auto;
     margin-top: 36px;
     margin-bottom: 113px;
+    transition: all  2s;
+}
+.all_prod:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .all_prod>a {
@@ -763,6 +778,7 @@ fas{
 
 .slider_plus_subscribe_BG {
     background-image: url(../img/slider_plus_subscribe_BG.jpg);
+    background-position: center center;
     height: 438px;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -865,6 +881,13 @@ fas{
     font-weight: 400;
     line-height: 54px;
     text-align: left;
+}
+
+.subscribe_input::placeholder {
+    padding: 10px;
+    color: rgba(34, 34, 36, 0.67);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .subscribe_input_flex {
