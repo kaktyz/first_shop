@@ -1068,6 +1068,7 @@ footer {
 .guest_check{
     margin-left: 35px;
     margin-right: 300px;
+    box-sizing: border-box;
 }
 .guest_check h5{
     color:  #222222;
@@ -1079,7 +1080,7 @@ footer {
     color:  #b3b2b2;
     font-size: 13px;
     font-weight: 400;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
     
 }
 .guest_check span{
@@ -1097,6 +1098,68 @@ footer {
     display: flex;
     align-items: center;
 }
+.shipping_adress_buttons{
+    padding: 15px 53px;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    background-color:  #ffffff;
+    color: #4a4a4a;
+    transition: 0.8s;
+}
+.shipping_adress_buttons:hover{
+    color: #fff;
+    background-color: #f16d7f;
+}
+
+.registred_form h5{
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.registred_form h6{
+    color:  #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.registred_form span{
+    color: #ff0d0d;    
+}
+.registred_form h6>span{
+    display: block;
+    padding-bottom: 15px;
+}
+.registred_form input{
+    margin-bottom: 15px;
+}
+.registred_form_link{
+    
+    margin-left: 32px;
+    color:  #222222;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.8s;
+}
+.registred_form_link:hover{
+     color: #f16d7f;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
