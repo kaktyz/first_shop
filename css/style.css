@@ -1057,6 +1057,9 @@ footer {
 .list{
     margin-top: 80px;
 }
+.shipping_adress{
+    margin-bottom: 75px;
+}
 .shipping_adress_flex{
     display: flex;
 }
@@ -1145,9 +1148,62 @@ footer {
 .registred_form_link:hover{
      color: #f16d7f;   
 }
-
-
-
+.billing_info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.billing_info>h2{
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.shipping_info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.shipping_info>h2{
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.shipping_method{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.shipping_method>h2{
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.payment{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.payment>h2{
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.order_review{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 125px;
+}
+.order_review>h2{
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
