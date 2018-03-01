@@ -1246,7 +1246,7 @@ footer {
 .main_product {
 	margin-top: 60px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 
@@ -1302,24 +1302,69 @@ footer {
 /*-----------------------top filter----------------------------*/
 
 .top_filter_top {
-	border: 1px solid red;
 	width: 1000px;
-	height: 300px;
+	height: 75px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .tranding_now ul {
 	display: flex;
+	max-width: 176px;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.tranding_now a{
+	color:  #6f6e6e;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 15px;
+	transition: 0.5s;
+}
+.tranding_now a:hover{
+	color: #ef5b70;
 }
 
 .tranding_now_link h6::after {
 	content: '|';
 	margin-right: 5px;
+	margin-left: 5px;
+	color: #dfdfdf;
 }
-
+.size input{
+	margin-right: 10px;
+}
 .size ul {
 	display: flex;
-	justify-content: space-between;
+	max-width: 235px;
+	flex-wrap: wrap;
 	align-items: center;
 }
+.size li{
+	color:  #6f6e6e;
+	font-weight: 400;
+	font-size: 14px;
+	margin-right: 13px;
+	margin-top: 15px;
+}
+.price{
+	width: 262px;
+}
+
+
+.top_filter_bot{
+	background-color: #f3f3f3;
+	height: 50px;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
