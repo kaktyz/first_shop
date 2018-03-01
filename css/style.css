@@ -1356,11 +1356,27 @@ footer {
 	background-color: #f3f3f3;
 	height: 50px;
 	margin-top: 40px;
+	display: flex;
+	align-items: center;
 }
-
-
-
-
+.top_filter_bot .fa-caret-down{
+	padding: 0;
+}
+.top_filter_bot_sort_div{
+	margin-left: 10px;
+}
+.top_filter_bot a{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	transition: 0.5s;
+	background-color: #fff;
+}
+.top_filter_bot a:hover{
+	color: #ef5b70;
+}
+.top_filter_bot_show_div{
+	margin-left: 10px;
+}
 
 
 
