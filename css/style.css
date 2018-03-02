@@ -1258,6 +1258,7 @@ footer {
 	align-items: center;
 	border-bottom: 1px solid #ebebeb;
 	margin-top: 30px;
+    max-width: 243px;
 }
 
 .fa-caret-down {
@@ -1300,7 +1301,13 @@ footer {
 
 
 /*-----------------------top filter----------------------------*/
-
+.main_right{
+    max-width: 846px;
+    margin-top: 30px;
+}
+.top_filter{
+    margin-top: 30px;
+}
 .top_filter_top {
 	width: 1000px;
 	height: 75px;
@@ -1361,6 +1368,8 @@ footer {
 }
 .top_filter_bot .fa-caret-down{
 	padding: 0;
+    color: #6f6e6e;
+    transition: 0.8s;
 }
 .top_filter_bot_sort_div{
 	margin-left: 10px;
@@ -1368,15 +1377,46 @@ footer {
 .top_filter_bot a{
 	padding-top: 7px;
 	padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
 	transition: 0.5s;
+    color: #6f6e6e;
 	background-color: #fff;
 }
+
 .top_filter_bot a:hover{
-	color: #ef5b70;
+	background-color: #ef5b70;
+    color: #fff;
+}
+.top_filter_bot .fa-caret-down{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.top_filter_bot a:hover .fa-caret-down{
+    color: #fff;
 }
 .top_filter_bot_show_div{
 	margin-left: 10px;
 }
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
