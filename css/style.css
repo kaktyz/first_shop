@@ -553,7 +553,6 @@ fas {
 
 .product_dscr {
 	height: 42px;
-	font-family: Lato;
 	color: #222222;
 	font-weight: 400;
 	display: flex;
@@ -1404,11 +1403,53 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.bot_nav_pager_current ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 260px;
+    padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid #ebebeb;
+}
+.bot_nav_pager_current li{
+    padding-left: 15px;
+}
+.bot_nav_pager_current_links{
+    color:  #c4c4c4;
+    transition: 0.5s;
+}
+.bot_nav_pager_current_links:hover{
+    color:  #ef5b70;
+    transform: scale(20);
+}
+.no_P{
+    padding-left: 0;
+}
+.link_view_all_link{
+    padding-top: 17px;
+    padding-right: 15px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    border: 1px solid #ef5b70;
+    color: #ef5b70;
+    transition: 0.8s;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link_view_all_link:hover{
+    color: #fff;
+    background-color: #ef5b70;
+}
 
-
-
-
-
+.link_view_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
