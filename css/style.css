@@ -1450,6 +1450,87 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+/*-----------Single page-------------*/
+.s_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*------Slider-----------*/
+
+.W_slider{
+    width: 100%;
+}
+.W_slider img{
+    width: 100%;
+}
+/*----------------MOSCHINO---------------*/
+.Moschino_Cheap{
+    margin-top: -85px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #eaeaea;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    
+}
+.w_collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+.w_collection h4{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+.w_collection img{
+    margin-top: -1.5px;
+}
+.mosh_chip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    
+}
+.mosh_chip h6{
+    max-width: 620px;
+    color: #5e5e5e;
+    font-weight: 300;
+    margin-top: 67px;
+    
+}
+.mosh_chip_m_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.mosh_chip_m_d span{
+    color:  #b9b9b9;
+}
+.mosh_chip_material{
+    margin-right: 45px;
+}
+.mosh_chip_price{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 71px;
+    max-width: 620px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 43px;
+}
+.mosh_chip_price h2{
+    color: #ef5b70;
+    
+}
+
+
+
 
 
 
