@@ -1528,8 +1528,26 @@ footer {
     color: #ef5b70;
     
 }
+.Moschino_Cheap_chooses{
+	display: flex;
+	justify-content: space-between;
+	max-width: 537px;
+	margin: 0 auto;
+	margin-top: 63px;
+}
 
-
+.Moschino_Cheap_choose_color select{
+	width: 144px;
+	height: 35px;
+	color: #bcbcbc;
+	font-size: 13px; 
+	font-weight: 400;
+}
+.Moschino_Cheap_choose_color_red img{
+	background-color: #ef5b70;
+	width: 12px;
+	height: 12px;
+}
 
 
 
