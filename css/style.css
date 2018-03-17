@@ -204,9 +204,12 @@ fas {
 	border-radius: 10px;
 	transition: 1.2s;
 }
-
+/*Разберись!!
+*/
 .menu_kids:hover .mega_menu_kids {
-	left: 450px;
+	left: 450px;  
+	transition-property: opacity;
+    opacity: 1;
 }
 
 .mega_menu_kids_flex {
