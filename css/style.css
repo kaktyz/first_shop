@@ -1635,6 +1635,86 @@ footer {
 .Y_may_l_cards_mini{
     width: 261px;
 }
+.m_table{
+    padding-top: 90px;
+}
+.row_names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+.m_table_prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+.cell1{
+    max-width: 171px;
+}
+.cell2{
+    width: 200px;
+    padding-left: 30px;
+}
+.cell3{
+    width: 120px;
+}
+.cell4{
+    width: 100px;
+}
+.cell5{
+    width: 100px;
+}
+.cell6{
+    width: 100px;
+}
+.cell7{
+    width: 100px;
+}
+.prod_name>h4{
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+}
+.prod_price{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prod_q{
+       align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prod_shipping{
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prod_subtotal{
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prod_action{
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
