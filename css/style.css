@@ -137,9 +137,10 @@ fas {
     width: 32px;
     height: 30px;
 }
-.backet>a:hover{
-	padding-top: 18px;
-	padding-bottom: 2px;
+
+.backet>a:hover {
+    padding-top: 18px;
+    padding-bottom: 2px;
 }
 
 .my_acc {
@@ -1601,9 +1602,14 @@ footer {
     height: 12px;
     color: green
 }
+
+
 /*---------------------Choose color---------------*/
+
+
 /*----------Add tocard-------------------*/
-#Moschino_Cheap_add{
+
+#Moschino_Cheap_add {
     width: 537px;
     height: 55px;
     display: flex;
@@ -1613,43 +1619,51 @@ footer {
     border: 1px solid #ef5b70;
     color: red;
 }
-#Moschino_Cheap_add h3{
+
+#Moschino_Cheap_add h3 {
     color: #ef5b70;
     font-size: 16px;
 }
 
+
 /*------------YML----------*/
-.Y_may_l{
+
+.Y_may_l {
     padding-bottom: 73px;
 }
-.Y_may_l h2{
+
+.Y_may_l h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #4d4d4d;
-    font-size: 24px; 
+    font-size: 24px;
     text-transform: uppercase;
     padding-top: 120px;
-    
 }
-.Y_may_l_cards{
+
+.Y_may_l_cards {
     display: flex;
     justify-content: space-around;
 }
-.Y_may_l_cards_mini{
+
+.Y_may_l_cards_mini {
     width: 261px;
 }
-.m_table{
+
+.m_table {
     padding-top: 90px;
 }
-.row_names{
+
+.row_names {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #eaeaea;
 }
-.m_table_prod{
+
+.m_table_prod {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1657,182 +1671,235 @@ footer {
     padding-bottom: 20px;
     border-bottom: 1px solid #eaeaea;
 }
-.cell1{
+
+.cell1 {
     max-width: 171px;
 }
-.cell2{
+
+.cell2 {
     width: 200px;
 }
-.cell3{
+
+.cell3 {
     width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cell4{
+
+.cell4 {
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cell5{
+
+.cell5 {
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cell6{
+
+.cell6 {
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cell7{
+
+.cell7 {
     width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.prod_name{
+
+.prod_name {
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.prod_name>h4{
+
+.prod_name>h4 {
     color: #222222;
     font-size: 13px;
     font-weight: 700;
     color: #222222;
     font-size: 13px;
     text-transform: uppercase;
-    
 }
-.prod_name_descr{
+
+.prod_name_descr {
     padding-bottom: 20px;
 }
-.prod_name_descr span{
-    color:  #6f6e6e;
+
+.prod_name_descr span {
+    color: #6f6e6e;
 }
-.prod_price{
+
+.prod_price {
     align-items: center;
     justify-content: center;
     display: flex;
     padding-left: 50px;
-    color:  #656565;
+    color: #656565;
     font-weight: 400;
     line-height: 20px;
 }
-.prod_q{
+
+.prod_q {
     align-items: center;
     justify-content: center;
     display: flex;
-    color:  #656565;
+    color: #656565;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color:  #eaeaea;
+    border-color: #eaeaea;
     box-sizing: border-box;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     width: 54px;
     height: 30px;
 }
-.prod_shipping{
+
+.prod_shipping {
     align-items: center;
     justify-content: center;
     display: flex;
-    color:  #656565;
+    color: #656565;
     font-weight: 400;
     padding-left: 30px;
 }
-.prod_subtotal{
+
+.prod_subtotal {
     align-items: center;
     justify-content: center;
     display: flex;
-    color:  #656565;
+    color: #656565;
     font-weight: 400;
 }
-.prod_action{
+
+.prod_action {
     align-items: center;
     justify-content: center;
     display: flex;
-   
 }
-.prod_action>img{
+
+.prod_action>img {
     width: 15px;
     height: 15px;
     color: aqua;
 }
+
+
 /*--------------Кнопки о продолжении покупки------------------*/
-.clear_continue_sopping{
+
+.clear_continue_sopping {
     padding-top: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.clear_continue_sopping a{
+
+.clear_continue_sopping a {
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 50px;
     padding-right: 50px;
     transition: 0.8s;
-    
 }
-.clear_continue_sopping a:hover{
+
+.clear_continue_sopping a:hover {
     color: #fff;
     background-color: #ef5b70;
     transform: scale(1.1);
 }
-.clear_shopping_cart{
+
+.clear_shopping_cart {
     border-style: solid;
     border-width: 1px;
-    border-color:  #eaeaea;
+    border-color: #eaeaea;
     box-sizing: border-box;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.clear_shopping_cart h3{
+.clear_shopping_cart h3 {
     color: #4a4a4a;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: 700;
 }
-.continue_shopping{
+
+.continue_shopping {
     display: flex;
     align-items: center;
     justify-content: center;
     border-style: solid;
     border-width: 1px;
-    border-color:  #eaeaea;
+    border-color: #eaeaea;
     box-sizing: border-box;
-    background-color:  #ffffff;
+    background-color: #ffffff;
 }
-.continue_shopping h3{
+
+.continue_shopping h3 {
     color: #4a4a4a;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: 700;
 }
 
 
+/*------------------Регистрация-----------------*/
 
+.registrationForm {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.registrationForm p {
+    padding: 10px;
+}
 
+.registrationInput {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1em;
+}
 
+.registrationInput::placeholder {
+    padding-left: 5px;
+}
 
+#registrationBtn {
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 130px;
+    background-color: #e1e1e1;
+    border: none;
+    color: #362222;
+    padding: 15px 30px;
+    text-align: center;
+    outline: none;
+    border-radius: 12px;
+    transition: 1.5s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#registrationBtn:hover {
+    color: #fff;
+    background-color: #ef5b70;
+    transform: scale(1.1);
+}
