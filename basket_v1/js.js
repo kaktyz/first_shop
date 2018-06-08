@@ -54,23 +54,27 @@ class Basket {
             this.refresh(); //Перерисовываем корзину
         }
         //TODO - удаление товара из корзины
-        remove(idProduct) {
-            for (let arrInd in this.basketItems) {
-                if (this.basketItems[arrInd].id_product === idProduct) {
-                    this.amount -= this.basketItems[arrInd].price;
-                    this.basketItems.splice(arrInd, 1);
-                    this.countGoods--;
-                    this.refresh();
-                    break;
-                }
+    remove(idProduct) {
+        for (let arrInd in this.basketItems) {
+            if (this.basketItems[arrInd].id_product === idProduct) {
+                this.amount -= this.basketItems[arrInd].price;
+                this.basketItems.splice(arrInd, 1);
+                this.countGoods--;
+                this.refresh();
+                break;
             }
         }
-
+    }
     refresh() {
         let $basketData = $('#basket_data');
         $basketData.empty(); //Очищаем содержимое контейнера
         $basketData.append(`<p>Всего товаров: ${this.countGoods}</p>`);
         $basketData.append(`<p>Общая сумма: ${this.amount}</p>`);
+        
+        
+        //Пробуем добавить на другую страницу
+        
+        $('#price123').append(`${this.amount}`);
     }
 }
 class Good {

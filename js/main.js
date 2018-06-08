@@ -17,18 +17,24 @@ $(document).ready(function() {
     })
             //Форма регистрации 
             const btn = document.getElementById('registrationBtn');
+            $( "#datepicker" ).datepicker({
+                dayNamesMin: [ "ВС", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ" ],
+                dateFormat: "dd.mm.yy",
+                firstDay: 1                
+            });
             btn.addEventListener('click', (event) => {
                 const inpName = document.getElementById('name').value;
                 const inpNumber = document.getElementById('number').value;
                 const inpEmail = document.getElementById('eMail').value;
+                const inpDatepicker = document.getElementById('datepicker').value;
                 let name = document.getElementById('name');
                 let email = document.getElementById('eMail');
                 let number = document.getElementById('number');
+                let datepicker = document.getElementById('datepicker');
                 if (inpName.match(/^[а-яА-ЯёЁa-zA-Z]+$/g)) {
                     name.setAttribute('style', 'border: 2px solid green');
                 } else {
                     name.setAttribute('style', 'border: 2px solid red');
-                   // alert('');
                     $('#name').effect( "bounce", "slow" );
                     $( "#dialogName" ).dialog();
                 }
@@ -36,7 +42,6 @@ $(document).ready(function() {
                     number.setAttribute('style', 'border: 2px solid green');
                 } else {
                     number.setAttribute('style', 'border: 2px solid red');
-                   //// alert('');
                     $('#number').effect( "bounce", "slow" );
                     $( "#dialogTel" ).dialog();
                 }
@@ -44,9 +49,16 @@ $(document).ready(function() {
                     eMail.setAttribute('style', 'border: 2px solid green');
                 } else {
                     eMail.setAttribute('style', 'border: 2px solid red');
-                   // alert('');
                     $('#eMail').effect( "bounce", "slow" );
                     $( "#dialogEmail" ).dialog();
+                }
+                
+                if (inpDatepicker != 0) {
+                    datepicker.setAttribute('style', 'border: 2px solid green');
+                } else {
+                    datepicker.setAttribute('style', 'border: 2px solid red');
+                    $('#datepicker').effect( "bounce", "slow" );
+                    $( "#datepickerDialog" ).dialog();
                 }
             })
 });
