@@ -1903,3 +1903,37 @@ footer {
     background-color: #ef5b70;
     transform: scale(1.1);
 }
+/*-----------------Корзина--------------*/
+.basketContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 360px;
+    padding-top: 40px;
+}
+.count{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.count p{
+    font-size: 6em;
+}
+.ammount{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.ammount p{
+    font-size: 6em;
+}
+.buy{
+    display: flex;
+    align-items: center;
+}
+.buyBtn{
+    height: 30px;
+    
+}
