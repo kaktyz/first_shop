@@ -80,7 +80,15 @@ class Basket {
 		$basketData.empty(); //Очищаем содержимое контейнера
 		$basketData.append(`<p>Всего товаров: ${this.countGoods}</p>`);
 		$basketData.append(`<p>Общая сумма: ${this.amount}</p>`);
-		$('.backet').append(`${this.countGoods}`);
+		//TODO: добавить проверку на нуль, чтобы возвращалась SVG корзинки
+		if(this.countGoods === 0){
+			$('.backet').empty();
+			$('.backet').append(`<a href="basket.html"><img src="img/basket.svg" alt="basket"></a>`);
+		}else{
+			$('.backet').empty();
+			$('.backet').append(`<div class="backetNumbersOfGoods"><p>${this.countGoods}</p>`);
+		}
+
 	}
 }
 
@@ -106,4 +114,14 @@ $(document).ready(function () {
 		event.preventDefault();
 		$('#basket_wrapper').toggle();
 	})
+	
+//	Прикрепляем корзинку
+	$(window).scroll(function () {
+		let $basketScroll = $(window).scrollTop();
+        if ($basketScroll > 146) {
+            $('#basket').addClass('gluingBasket conteiner');
+        } else {
+            $('#basket').removeClass('gluingBasket conteiner');
+        }
+    });
 });

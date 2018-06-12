@@ -128,8 +128,8 @@ fas {
 
 .header_right {
     display: flex;
-    align-items: center;
     margin-top: 28px;
+	overflow: hidden;
 }
 
 .backet {
@@ -171,6 +171,7 @@ fas {
 	display: flex;
 	padding: 20px;
 	justify-content: space-between;
+	margin-top: 20px;
 	
 }
 
@@ -207,7 +208,42 @@ fas {
     background-color: #ef5b70;
 }
 
+.backetNumbersOfGoods{
+	font-weight: bold;
+	font-size: 12px;
+	background-color: antiquewhite;
+	color: #ef5b70;
+	background-image: url('../img/basket.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15px;
+	margin-top: 0;
+	width: 0;
+	height: 0;
+	border: 2px solid  #ef5b70;
+	border-radius: 600px;
+	padding: 18px;
+	
+}
+.backetNumbersOfGoods p{
+	color:  red;
+	margin-left: 5px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+}
 
+.gluingBasket{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	border: 1px solid #ef5b70;
+	background-color: #f8f3f4;
+	opacity: 0.8;
+	border-radius: 9px;
+}
 
 /*--------------- Меню навигации------------------*/
 
