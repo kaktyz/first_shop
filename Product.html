@@ -8,6 +8,8 @@
   <!--
     <script defer src="/js/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.min.js"></script> -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/Bascket.js"></script>
 </head>
 
 <body>
@@ -37,6 +39,8 @@
       </div>
     </div>
   </header>
+<!--  Корзина-->
+  <div id="basket_wrapper" class="conteiner"></div>
   <nav>
     <ul class="conteiner menu_nav">
       <li class="menu_nav_a"><a href="index.html" class="menu_nav_a">home</a></li>
@@ -213,7 +217,7 @@
         </div>
       </article>
       <article class="cards">
-          <div class="product_1">
+			   <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_1.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3></div>
@@ -221,97 +225,141 @@
                         <h3>$52.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="321" data-price="52"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
+                 <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="321" data-price="52"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+                
             </div>
                <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_2.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$62.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="322" data-price="62"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="322"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_3.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$72.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="323" data-price="72"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                 <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="323"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_4.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$82.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="324" data-price="82"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="324"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_5.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$92.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="325" data-price="92"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="325"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>                
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_6.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$102.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="326" data-price="102"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="326"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_7.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$202.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="327" data-price="202"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="327"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_8.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$302.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="328" data-price="302"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
                 </div>
-            </div><div class="product_1">
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="328"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
+                </div>
+            </div>
+               <div class="product_1">
                 <a href="#" class="product_1_link"> <img src="img/Products/Prod_img_9.jpg" alt="Mango  People  T-shirt">
                     <div class="product_dscr">
                         <h3>Mango  People  T-shirt</h3> </div>
                     <div class="product_prise">
-                        <h3>$52.00</h3> </div>
+                        <h3>$402.00</h3> </div>
                 </a>
                 <div class="add_to_cart">
-                    <a href="123" class="add_to_cart_link"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
+                    <a href="123" class="add_to_cart_link" data-id="329" data-price="402"> <img class="add_to_cart_img" src="img/add_2_cart.png" alt="add_2_cart">
                         <h5>Add To Cart</h5> </a>
+                </div>
+                <div class="add_to_cart remove_from_cart">
+                    <a href="123" class="remove_from_cart_link" data-id="329"> <i class="fa fa-ban" aria-hidden="true"></i>
+                        <h5>Remove from cart</h5> </a>
                 </div>
             </div>
       </article>
