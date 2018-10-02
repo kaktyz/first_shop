@@ -7,7 +7,11 @@ class Basket {
 			//Получаем уже добавленные в корзину товары
 			this.getBasket();
 		}
-		//	Отрисовываем корзину
+
+    /**
+	 * Отрисовывает корзину
+     * @param $jQueryElement
+     */
 	render($jQueryElement) {
 			let $basketDiv = $('<div />', {
 				id: this.id
@@ -25,7 +29,7 @@ class Basket {
 			$basketByBtn.appendTo($basketDiv);
 			$basketDiv.appendTo($jQueryElement);
 		}
-		//	Достаем содержимое из JSON-a
+	//	Достаем содержимое из JSON-a
 	getBasket() {
 			let appendId = `#${this.id}_items`;
 			//let self = this;
@@ -52,7 +56,12 @@ class Basket {
 				, dataType: 'json'
 			});
 		}
-		//	Добавляем товар по кнопке
+
+    /**
+	 * Добавляем товар в карзину
+     * @param id_product id добавляемого товара
+     * @param price цена добавляемого товара
+     */
 	add(id_product, price) {
 			let basketNewItem = {
 				id_product, price //price: price
@@ -62,7 +71,11 @@ class Basket {
 			this.amount += price; //this.amount = this.amount + price;
 			this.refresh(); //Перерисовываем корзину
 		}
-		//        Удаляем товар по кнопке
+
+    /**
+	 * Удаляет вещь из крзины по пришедшему id
+     * @param idProduct  id удаляемого продукта
+     */
 	remove(idProduct) {
 			for (let arrInd in this.basketItems) {
 				if (this.basketItems[arrInd].id_product === idProduct) {
@@ -74,7 +87,10 @@ class Basket {
 				}
 			}
 		}
-		//	Обновляем корзину, чтобы отрисовать недавно добавленные товары
+
+    /**
+	 * Обновляем корзину для актуального отображеия данных в корзине
+     */
 	refresh() {
 		let $basketData = $('#basket_data');
 		$basketData.empty(); //Очищаем содержимое контейнера
